@@ -7,7 +7,7 @@ function button () {
     } else if (ButtonVal < 597) {
         ButtonNum = 6
         radio.sendNumber(6)
-        led.plot(4, 2)
+        led.plot(4, 3)
     } else if (ButtonVal < 725) {
         ButtonNum = 7
         radio.sendNumber(7)
