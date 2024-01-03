@@ -33,9 +33,9 @@ function はやさ () {
     if (input.isGesture(Gesture.LogoUp)) {
         led.plot(4, 0)
         led.plot(3, 0)
-        radio.sendNumber(25)
+        radio.sendValue("spead", 25)
     } else {
-        radio.sendNumber(0)
+        radio.sendValue("spead", 0)
     }
 }
 let ButtonVal = 0
