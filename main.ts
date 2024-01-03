@@ -63,5 +63,5 @@ basic.forever(function () {
             led.plot(1, 0)
         }
     }
-    basic.pause(100)
+    basic.pause(200)
 })
