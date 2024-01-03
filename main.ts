@@ -33,7 +33,7 @@ function はやさ () {
     if (input.isGesture(Gesture.LogoUp)) {
         led.plot(4, 0)
         led.plot(3, 0)
-        radio.sendNumber(100)
+        radio.sendNumber(25)
     } else {
         radio.sendNumber(0)
     }
@@ -63,4 +63,5 @@ basic.forever(function () {
             led.plot(1, 0)
         }
     }
+    basic.pause(100)
 })
